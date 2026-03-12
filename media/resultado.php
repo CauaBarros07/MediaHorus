@@ -55,7 +55,7 @@ if ($media >= $media_aprovacao) {
     <meta charset="utf-8">
     <title>Resultado</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 
 </head>
 
@@ -84,7 +84,7 @@ if ($media >= $media_aprovacao) {
         </p>
 
         <form action="notas.php" method="post">
-            <button type="submit">Editar notas</button>
+            <button type="submit">Editar notas</button><br><br>
         </form>
 
         <form action="index.php" method="post">

@@ -1,9 +1,7 @@
 <?php
-
 session_start();
-
-session_unset();   // remove dados da sessão
-session_destroy(); // destrói sessão
+session_unset();
+session_destroy();
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +10,7 @@ session_destroy(); // destrói sessão
 <meta charset="utf-8">
 <title>Informar Nome</title>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style2.css">
 
 </head>
 
@@ -24,12 +22,10 @@ session_destroy(); // destrói sessão
 
 <form action="notas.php" method="post">
 
-<div class="box">
-    <label>Nome:</label>
-    <input type="text" name="nome" maxlength="50" required pattern="[A-Za-zÀ-ÿ\s]+">
+<label>Nome:</label>
+<input type="text" name="nome" maxlength="50" required pattern="[A-Za-zÀ-ÿ\s]+">
 
-    <button type="submit">Próximo</button>
-</div>
+<button type="submit">Próximo</button>
 
 </form>
 

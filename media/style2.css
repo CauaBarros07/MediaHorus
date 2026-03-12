@@ -1,0 +1,67 @@
+body{
+     margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* titulo */
+h2{
+    text-align:center;
+    margin-top:40px;
+}
+
+/* caixa central */
+.container{
+    width:350px;
+    background:white;
+    padding:30px;
+    margin:40px auto;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* inputs */
+input{
+    width: 90%;
+    padding: 14px;
+    margin-bottom: 25px;
+    border: 2px solid #edf2f7;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #f8fafc;
+    transition: all 0.3s;
+}
+
+/* botão */
+button{
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(110, 142, 251, 0.3);
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    transform: translateY(-2px); 
+    box-shadow: 0 8px 25px rgba(110, 142, 251, 0.4);
+    filter: brightness(1.1);
+}
+
+.aprovado{
+color:green;
+font-weight:bold;
+}
+
+.reprovado{
+color:red;
+font-weight:bold;
+}
